@@ -1,8 +1,8 @@
 {
   "name": "1pwaOxigraph",
   "short_name": "1pwaOxigraph",
-  "id": "./",
-  "start_url": "./",
+  "id": "/1pwaOxigraph/",
+  "start_url": "/1pwaOxigraph/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#03173d",

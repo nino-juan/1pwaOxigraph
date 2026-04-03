@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script>
+        // Redirect 404s back to the SPA with the path encoded as a query param
+        const repo = '/1pwaOxigraph';
+        const path = window.location.pathname.replace(repo, '');
+        window.location.href = repo + '/?path=' + encodeURIComponent(path);
+    </script>
+</head>
+
+</html>
